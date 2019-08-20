@@ -5,13 +5,13 @@
  */
 package gov.nasa.worldwind.util;
 
+import com.jogamp.opengl.*;
 import com.jogamp.opengl.util.texture.*;
 import com.jogamp.opengl.util.texture.awt.AWTTextureIO;
 import com.jogamp.opengl.util.texture.spi.DDSImage;
 import gov.nasa.worldwind.geom.Vec4;
 
 import javax.imageio.ImageIO;
-import javax.media.opengl.*;
 import java.awt.image.*;
 import java.io.*;
 import java.net.URL;

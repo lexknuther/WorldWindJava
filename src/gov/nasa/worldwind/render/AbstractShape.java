@@ -6,6 +6,7 @@
 
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.cache.ShapeDataCache;
@@ -19,7 +20,6 @@ import gov.nasa.worldwind.pick.*;
 import gov.nasa.worldwind.terrain.Terrain;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import javax.xml.stream.*;
 import java.awt.*;
 import java.io.*;

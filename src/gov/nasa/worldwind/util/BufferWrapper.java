@@ -6,9 +6,9 @@
 
 package gov.nasa.worldwind.util;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.avlist.*;
 
-import javax.media.opengl.*;
 import java.nio.*;
 
 /**

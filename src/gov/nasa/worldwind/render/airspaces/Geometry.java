@@ -6,11 +6,11 @@
 package gov.nasa.worldwind.render.airspaces;
 
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.avlist.AVListImpl;
 import gov.nasa.worldwind.cache.Cacheable;
 import gov.nasa.worldwind.globes.*;
 
-import javax.media.opengl.*;
 import java.nio.*;
 import java.util.Arrays;
 

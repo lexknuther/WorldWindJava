@@ -5,6 +5,7 @@
  */
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.*;
 import com.jogamp.opengl.util.texture.TextureCoords;
 import gov.nasa.worldwind.Locatable;
 import gov.nasa.worldwind.avlist.AVKey;
@@ -15,7 +16,6 @@ import gov.nasa.worldwind.pick.PickSupport;
 import gov.nasa.worldwind.terrain.SectorGeometryList;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.awt.*;
 import java.util.Iterator;
 import java.util.logging.Level;

@@ -49,24 +49,23 @@
 package gov.nasa.worldwind.render;
 
 import com.jogamp.common.nio.Buffers;
-import com.jogamp.opengl.GLExtensions;
+import com.jogamp.opengl.*;
+import com.jogamp.opengl.awt.GLCanvas;
+import com.jogamp.opengl.glu.GLU;
 import com.jogamp.opengl.util.FPSAnimator;
 import com.jogamp.opengl.util.awt.TextureRenderer;
 import com.jogamp.opengl.util.packrect.*;
 import com.jogamp.opengl.util.texture.TextureCoords;
 import jogamp.opengl.Debug;
 
-import javax.media.opengl.*;
-import javax.media.opengl.awt.GLCanvas;
-import javax.media.opengl.glu.GLU;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.font.*;
 import java.awt.geom.*;
 import java.nio.*;
 import java.text.CharacterIterator;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 // For debugging purposes
 
@@ -388,7 +387,8 @@ public class TextRenderer {
         @param height the height of the current on-screen OpenGL drawable
         @throws javax.media.opengl.GLException If an OpenGL context is not current when this method is called
     */
-    public void beginRendering(int width, int height) throws GLException {
+    public void beginRendering(int width, int height) throws GLException
+    {
         beginRendering(width, height, true);
     }
 
@@ -1951,7 +1951,8 @@ public class TextRenderer {
 
         @Override
         public void dispose(GLAutoDrawable drawable) {
-            glu.destroy();
+            //TODO: verify that this isn't needed.
+            //glu.destroy();
             glu=null;
             frame=null;
         }

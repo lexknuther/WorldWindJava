@@ -6,14 +6,14 @@
 
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.*;
+import com.jogamp.opengl.glu.GLU;
+import com.jogamp.opengl.glu.gl2.GLUgl2;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.globes.Globe2D;
 import gov.nasa.worldwind.terrain.SectorGeometryList;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
-import javax.media.opengl.glu.GLU;
-import javax.media.opengl.glu.gl2.GLUgl2;
 import java.awt.*;
 import java.awt.geom.*;
 import java.io.IOException;

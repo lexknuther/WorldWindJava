@@ -6,17 +6,17 @@
 
 package gov.nasa.worldwind.util;
 
+import com.jogamp.opengl.GL;
 import com.jogamp.opengl.util.packrect.*;
 import com.jogamp.opengl.util.texture.*;
 import com.jogamp.opengl.util.texture.awt.AWTTextureIO;
 import gov.nasa.worldwind.exception.WWRuntimeException;
 import gov.nasa.worldwind.render.DrawContext;
 
-import javax.media.opengl.GL;
 import java.awt.*;
 import java.awt.image.*;
-import java.util.*;
 import java.util.Queue;
+import java.util.*;
 
 /**
  * Represents a texture composed of multiple independent images. The independent images are referred to as

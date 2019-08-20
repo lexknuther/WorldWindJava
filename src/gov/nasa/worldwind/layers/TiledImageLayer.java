@@ -5,10 +5,11 @@
  */
 package gov.nasa.worldwind.layers;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.WorldWind;
 import gov.nasa.worldwind.avlist.*;
-import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.geom.Box;
+import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.globes.Earth;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.retrieve.*;
@@ -16,7 +17,6 @@ import gov.nasa.worldwind.util.*;
 import org.w3c.dom.*;
 
 import javax.imageio.ImageIO;
-import javax.media.opengl.*;
 import javax.xml.xpath.XPath;
 import java.awt.image.*;
 import java.io.*;

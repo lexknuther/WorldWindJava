@@ -5,13 +5,13 @@
  */
 package gov.nasa.worldwind.util.combine;
 
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.glu.*;
 import gov.nasa.worldwind.Disposable;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.glu.*;
 import java.util.*;
 
 /**

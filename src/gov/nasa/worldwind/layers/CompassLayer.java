@@ -5,6 +5,7 @@
  */
 package gov.nasa.worldwind.layers;
 
+import com.jogamp.opengl.*;
 import com.jogamp.opengl.util.texture.*;
 import gov.nasa.worldwind.View;
 import gov.nasa.worldwind.avlist.AVKey;
@@ -15,7 +16,6 @@ import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 import gov.nasa.worldwind.view.orbit.OrbitView;
 
-import javax.media.opengl.*;
 import java.awt.*;
 import java.io.*;
 

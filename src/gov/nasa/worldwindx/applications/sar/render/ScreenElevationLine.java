@@ -5,11 +5,11 @@
  */
 package gov.nasa.worldwindx.applications.sar.render;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.Logging;
 
-import javax.media.opengl.*;
 import java.awt.*;
 
 /**

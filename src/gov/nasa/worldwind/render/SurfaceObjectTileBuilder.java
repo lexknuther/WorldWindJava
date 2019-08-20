@@ -5,6 +5,7 @@
  */
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.GL;
 import com.jogamp.opengl.util.texture.*;
 import gov.nasa.worldwind.avlist.*;
 import gov.nasa.worldwind.cache.Cacheable;
@@ -14,10 +15,9 @@ import gov.nasa.worldwind.layers.TextureTile;
 import gov.nasa.worldwind.pick.PickedObject;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.GL;
 import java.awt.*;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 /**
  * Builds a list of {@link gov.nasa.worldwind.render.SurfaceTile} instances who's content is defined by a specified set

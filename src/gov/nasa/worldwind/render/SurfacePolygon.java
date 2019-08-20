@@ -6,6 +6,8 @@
 package gov.nasa.worldwind.render;
 
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.*;
+import com.jogamp.opengl.glu.*;
 import gov.nasa.worldwind.Exportable;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.exception.WWRuntimeException;
@@ -15,13 +17,10 @@ import gov.nasa.worldwind.ogc.kml.KMLConstants;
 import gov.nasa.worldwind.ogc.kml.impl.KMLExportUtil;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
-import javax.media.opengl.glu.*;
 import javax.xml.stream.*;
 import java.io.*;
 import java.nio.*;
 import java.util.*;
-import java.util.List;
 
 /**
  * @author dcollins

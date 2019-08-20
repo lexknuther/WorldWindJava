@@ -5,12 +5,12 @@
  */
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.GL;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.geom.*;
-import gov.nasa.worldwind.globes.*;
+import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.GL;
 import java.awt.*;
 
 /**

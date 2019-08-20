@@ -5,14 +5,13 @@
  */
 package gov.nasa.worldwind.view.firstperson;
 
+import com.jogamp.opengl.GL;
 import gov.nasa.worldwind.Configuration;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.render.DrawContext;
 import gov.nasa.worldwind.util.Logging;
 import gov.nasa.worldwind.view.*;
-
-import javax.media.opengl.GL;
 
 /**
  * This is a basic view that implements a yaw-pitch-roll model that can be applied to first-person style view

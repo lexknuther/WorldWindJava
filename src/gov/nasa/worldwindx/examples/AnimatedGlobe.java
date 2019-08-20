@@ -6,12 +6,11 @@
 
 package gov.nasa.worldwindx.examples;
 
-import com.jogamp.opengl.util.*;
+import com.jogamp.opengl.GLAnimatorControl;
+import com.jogamp.opengl.util.FPSAnimator;
 import gov.nasa.worldwind.awt.WorldWindowGLCanvas;
 import gov.nasa.worldwind.event.*;
 import gov.nasa.worldwind.geom.*;
-
-import javax.media.opengl.GLAnimatorControl;
 
 /**
  * Shows how to use a JOGL Animator to animate in WorldWind

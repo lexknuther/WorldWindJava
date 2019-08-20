@@ -6,6 +6,7 @@
 package gov.nasa.worldwind.formats.shapefile;
 
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.cache.*;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.layers.Layer;
@@ -14,12 +15,11 @@ import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.terrain.Terrain;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.awt.*;
 import java.nio.*;
-import java.util.*;
 import java.util.List;
 import java.util.Queue;
+import java.util.*;
 
 /**
  * @author dcollins

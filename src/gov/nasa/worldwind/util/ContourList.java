@@ -5,12 +5,12 @@
  */
 package gov.nasa.worldwind.util;
 
+import com.jogamp.opengl.glu.*;
 import gov.nasa.worldwind.WWObjectImpl;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.util.combine.*;
 
-import javax.media.opengl.glu.*;
-import java.util.*;
+import java.util.ArrayList;
 
 /**
  * @author dcollins

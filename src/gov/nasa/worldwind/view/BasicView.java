@@ -5,6 +5,7 @@
  */
 package gov.nasa.worldwind.view;
 
+import com.jogamp.opengl.GL2;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.animation.Animator;
 import gov.nasa.worldwind.avlist.AVKey;
@@ -13,8 +14,6 @@ import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.render.DrawContext;
 import gov.nasa.worldwind.util.*;
-
-import javax.media.opengl.GL2;
 
 /**
  * A base class from which {@link View} implementations can be derived. Currently {@link

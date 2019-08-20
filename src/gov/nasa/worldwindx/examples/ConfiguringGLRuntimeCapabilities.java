@@ -5,12 +5,11 @@
  */
 package gov.nasa.worldwindx.examples;
 
+import com.jogamp.opengl.GLAutoDrawable;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.render.GLRuntimeCapabilities;
 import gov.nasa.worldwind.util.Logging;
-
-import javax.media.opengl.GLAutoDrawable;
 
 /**
  * Illustrates how to specify the OpenGL features WorldWind uses by configuring a <code>{@link

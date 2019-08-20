@@ -6,12 +6,12 @@
 package gov.nasa.worldwind.util;
 
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.GL;
+import com.jogamp.opengl.glu.*;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.terrain.Terrain;
 
-import javax.media.opengl.GL;
-import javax.media.opengl.glu.*;
 import java.nio.*;
 import java.util.*;
 

@@ -7,12 +7,13 @@
 package gov.nasa.worldwind.render;
 
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.WorldWind;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.cache.*;
-import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.geom.Box;
 import gov.nasa.worldwind.geom.Cylinder;
+import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.layers.Layer;
 import gov.nasa.worldwind.ogc.kml.impl.KMLExportUtil;
@@ -20,13 +21,12 @@ import gov.nasa.worldwind.pick.*;
 import gov.nasa.worldwind.terrain.Terrain;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import javax.xml.stream.*;
 import java.awt.*;
 import java.io.IOException;
 import java.nio.*;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 import static gov.nasa.worldwind.ogc.kml.impl.KMLExportUtil.kmlBoolean;
 

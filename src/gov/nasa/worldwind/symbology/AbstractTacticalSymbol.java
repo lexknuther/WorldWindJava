@@ -6,6 +6,7 @@
 
 package gov.nasa.worldwind.symbology;
 
+import com.jogamp.opengl.*;
 import com.jogamp.opengl.util.texture.*;
 import com.jogamp.opengl.util.texture.awt.AWTTextureIO;
 import gov.nasa.worldwind.*;
@@ -17,12 +18,11 @@ import gov.nasa.worldwind.pick.*;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.awt.*;
 import java.awt.geom.*;
 import java.awt.image.*;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 /**
  * @author dcollins

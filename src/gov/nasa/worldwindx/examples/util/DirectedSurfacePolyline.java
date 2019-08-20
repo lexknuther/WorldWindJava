@@ -6,12 +6,12 @@
 package gov.nasa.worldwindx.examples.util;
 
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.nio.FloatBuffer;
 import java.util.*;
 

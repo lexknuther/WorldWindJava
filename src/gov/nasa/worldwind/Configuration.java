@@ -6,12 +6,12 @@
 
 package gov.nasa.worldwind;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.geom.Angle;
 import gov.nasa.worldwind.util.*;
 import org.w3c.dom.*;
 
-import javax.media.opengl.*;
 import javax.xml.xpath.*;
 import java.io.*;
 import java.util.*;

@@ -5,6 +5,9 @@
  */
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.*;
+import com.jogamp.opengl.glu.*;
+import com.jogamp.opengl.glu.gl2.GLUgl2;
 import gov.nasa.worldwind.Disposable;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.geom.*;
@@ -14,9 +17,6 @@ import gov.nasa.worldwind.terrain.SectorGeometryList;
 import gov.nasa.worldwind.tracks.TrackPoint;
 import gov.nasa.worldwind.util.Logging;
 
-import javax.media.opengl.*;
-import javax.media.opengl.glu.*;
-import javax.media.opengl.glu.gl2.GLUgl2;
 import java.util.Iterator;
 
 /**

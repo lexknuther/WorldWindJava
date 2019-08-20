@@ -6,11 +6,11 @@
 
 package gov.nasa.worldwind.geom;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.View;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.util.*;
 
 /**

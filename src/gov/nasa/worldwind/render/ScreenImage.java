@@ -6,6 +6,7 @@
 
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.*;
 import com.jogamp.opengl.util.texture.TextureCoords;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
@@ -15,7 +16,6 @@ import gov.nasa.worldwind.ogc.kml.impl.KMLExportUtil;
 import gov.nasa.worldwind.pick.PickSupport;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import javax.xml.stream.*;
 import java.awt.*;
 import java.io.*;

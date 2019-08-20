@@ -5,11 +5,10 @@
  */
 package gov.nasa.worldwindx.examples.util;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.geom.Position;
 import gov.nasa.worldwind.render.*;
-
-import javax.media.opengl.*;
 
 /**
  * @author dcollins

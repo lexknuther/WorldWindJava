@@ -1,13 +1,13 @@
 package com.zebraimaging;
 
+import com.jogamp.opengl.awt.GLCanvas;
 import gov.nasa.worldwind.WorldWindow;
 import gov.nasa.worldwind.awt.*;
 
-import javax.media.opengl.awt.GLCanvas;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 /**
  * An alternative input handler used to synchronize input with the Zebra Imaging display controller. Applications are

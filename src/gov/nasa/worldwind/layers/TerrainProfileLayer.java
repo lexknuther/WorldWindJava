@@ -5,6 +5,7 @@
  */
 package gov.nasa.worldwind.layers;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.event.*;
@@ -14,12 +15,11 @@ import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 import gov.nasa.worldwind.view.orbit.OrbitView;
 
-import javax.media.opengl.*;
 import java.awt.*;
 import java.awt.geom.*;
 import java.beans.PropertyChangeEvent;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 /**
  * Displays a terrain profile graph in a screen corner. <p/> <p> Usage: do setEventSource(wwd) to have the graph

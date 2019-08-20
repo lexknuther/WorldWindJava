@@ -5,21 +5,21 @@
  */
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.*;
 import gov.nasa.worldwind.drag.*;
-import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.geom.Cylinder;
+import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.layers.Layer;
 import gov.nasa.worldwind.pick.PickSupport;
 import gov.nasa.worldwind.util.*;
 import gov.nasa.worldwind.util.measure.LengthMeasurer;
 
-import javax.media.opengl.*;
 import java.awt.*;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 /**
  * @author tag

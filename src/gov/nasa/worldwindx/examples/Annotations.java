@@ -5,6 +5,7 @@
  */
 package gov.nasa.worldwindx.examples;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.event.*;
@@ -15,9 +16,8 @@ import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 import gov.nasa.worldwindx.examples.util.PowerOfTwoPaddedImage;
 
-import javax.media.opengl.*;
-import javax.swing.*;
 import javax.swing.Box;
+import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.*;
 import java.awt.*;

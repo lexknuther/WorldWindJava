@@ -6,6 +6,7 @@
 
 package gov.nasa.worldwind.render.markers;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.layers.Layer;
@@ -13,10 +14,9 @@ import gov.nasa.worldwind.pick.*;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.Logging;
 
-import javax.media.opengl.*;
 import java.awt.*;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 import java.util.logging.Level;
 
 /**

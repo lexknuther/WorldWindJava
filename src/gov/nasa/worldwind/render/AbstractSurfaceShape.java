@@ -6,6 +6,8 @@
 package gov.nasa.worldwind.render;
 
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.*;
+import com.jogamp.opengl.glu.*;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.drag.*;
@@ -17,14 +19,12 @@ import gov.nasa.worldwind.util.*;
 import gov.nasa.worldwind.util.combine.*;
 import gov.nasa.worldwind.util.measure.AreaMeasurer;
 
-import javax.media.opengl.*;
-import javax.media.opengl.glu.*;
 import javax.xml.stream.XMLStreamException;
 import java.awt.*;
 import java.io.IOException;
 import java.nio.FloatBuffer;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 /**
  * Common superclass for surface conforming shapes such as {@link gov.nasa.worldwind.render.SurfacePolygon}, {@link

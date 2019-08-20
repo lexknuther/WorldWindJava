@@ -5,9 +5,10 @@
  */
 package gov.nasa.worldwind.layers.mercator;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.*;
-import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.geom.Cylinder;
+import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.layers.AbstractLayer;
 import gov.nasa.worldwind.render.*;
@@ -15,15 +16,14 @@ import gov.nasa.worldwind.retrieve.*;
 import gov.nasa.worldwind.util.*;
 
 import javax.imageio.ImageIO;
-import javax.media.opengl.*;
 import java.awt.*;
 import java.awt.geom.*;
 import java.awt.image.*;
 import java.io.*;
 import java.net.*;
 import java.nio.ByteBuffer;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 import java.util.concurrent.PriorityBlockingQueue;
 
 /**

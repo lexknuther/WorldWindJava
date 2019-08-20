@@ -6,10 +6,9 @@
 
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.GL2;
 import gov.nasa.worldwind.geom.Vec4;
 import gov.nasa.worldwind.util.*;
-
-import javax.media.opengl.GL2;
 
 /**
  * Provides a simple lighting model with one light. This model uses only OpenGL light 0.

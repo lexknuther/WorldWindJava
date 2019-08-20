@@ -6,6 +6,7 @@
 
 package gov.nasa.worldwind.render.airspaces;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.geom.Box;
 import gov.nasa.worldwind.geom.Cylinder;
 import gov.nasa.worldwind.geom.*;
@@ -13,7 +14,6 @@ import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.util.*;
 
 /**

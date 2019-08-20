@@ -6,6 +6,8 @@
 
 package gov.nasa.worldwind;
 
+import com.jogamp.opengl.*;
+import com.jogamp.opengl.awt.AWTGLAutoDrawable;
 import com.jogamp.opengl.util.texture.TextureIO;
 import gov.nasa.worldwind.cache.GpuResourceCache;
 import gov.nasa.worldwind.event.*;
@@ -16,8 +18,6 @@ import gov.nasa.worldwind.render.ScreenCreditController;
 import gov.nasa.worldwind.util.*;
 import gov.nasa.worldwind.util.dashboard.DashboardController;
 
-import javax.media.opengl.*;
-import javax.media.opengl.awt.AWTGLAutoDrawable;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

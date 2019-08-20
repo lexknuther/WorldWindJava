@@ -6,6 +6,7 @@
 
 package gov.nasa.worldwind;
 
+import com.jogamp.opengl.GLContext;
 import gov.nasa.worldwind.avlist.AVList;
 import gov.nasa.worldwind.cache.GpuResourceCache;
 import gov.nasa.worldwind.event.*;
@@ -13,7 +14,6 @@ import gov.nasa.worldwind.geom.Position;
 import gov.nasa.worldwind.pick.PickedObjectList;
 import gov.nasa.worldwind.util.PerformanceStatistic;
 
-import javax.media.opengl.GLContext;
 import java.util.*;
 
 /**

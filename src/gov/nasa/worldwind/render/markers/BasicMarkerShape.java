@@ -6,6 +6,9 @@
 
 package gov.nasa.worldwind.render.markers;
 
+import com.jogamp.opengl.GL2;
+import com.jogamp.opengl.glu.*;
+import com.jogamp.opengl.glu.gl2.GLUgl2;
 import gov.nasa.worldwind.Disposable;
 import gov.nasa.worldwind.cache.GpuResourceCache;
 import gov.nasa.worldwind.geom.*;
@@ -13,9 +16,6 @@ import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.render.DrawContext;
 import gov.nasa.worldwind.util.Logging;
 
-import javax.media.opengl.GL2;
-import javax.media.opengl.glu.*;
-import javax.media.opengl.glu.gl2.GLUgl2;
 import java.util.ArrayList;
 
 /**

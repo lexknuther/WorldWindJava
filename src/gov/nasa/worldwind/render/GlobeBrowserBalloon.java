@@ -6,12 +6,12 @@
 
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.GL;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.pick.PickedObject;
 import gov.nasa.worldwind.util.Logging;
 
-import javax.media.opengl.GL;
 import java.awt.*;
 
 /**

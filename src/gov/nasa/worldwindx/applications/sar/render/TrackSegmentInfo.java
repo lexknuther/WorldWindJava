@@ -5,13 +5,13 @@
  */
 package gov.nasa.worldwindx.applications.sar.render;
 
+import com.jogamp.opengl.GL2;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 import gov.nasa.worldwindx.applications.sar.*;
 
-import javax.media.opengl.*;
 import java.awt.*;
 
 /**

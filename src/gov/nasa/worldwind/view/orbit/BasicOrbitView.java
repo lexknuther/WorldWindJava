@@ -5,6 +5,7 @@
  */
 package gov.nasa.worldwind.view.orbit;
 
+import com.jogamp.opengl.GL;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.awt.ViewInputHandler;
@@ -12,8 +13,6 @@ import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.render.DrawContext;
 import gov.nasa.worldwind.util.*;
 import gov.nasa.worldwind.view.BasicView;
-
-import javax.media.opengl.GL;
 
 /**
  * @author dcollins

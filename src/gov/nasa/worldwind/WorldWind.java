@@ -6,6 +6,7 @@
 
 package gov.nasa.worldwind;
 
+import com.jogamp.opengl.GL;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.cache.*;
 import gov.nasa.worldwind.exception.WWRuntimeException;
@@ -14,7 +15,6 @@ import gov.nasa.worldwind.retrieve.RetrievalService;
 import gov.nasa.worldwind.util.*;
 
 import javax.imageio.spi.IIORegistry;
-import javax.media.opengl.GL;
 import java.beans.PropertyChangeListener;
 import java.util.logging.Level;
 

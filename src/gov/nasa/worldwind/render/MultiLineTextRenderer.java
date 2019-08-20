@@ -5,12 +5,12 @@
  */
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.GL2;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.geom.Position;
 import gov.nasa.worldwind.pick.*;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.awt.*;
 import java.awt.geom.*;
 import java.util.*;

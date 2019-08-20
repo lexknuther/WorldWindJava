@@ -6,6 +6,7 @@
 
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.GL2;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.drag.*;
@@ -13,7 +14,6 @@ import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.GL2;
 import java.awt.*;
 import java.awt.geom.*;
 import java.util.Arrays;

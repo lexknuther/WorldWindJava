@@ -7,11 +7,11 @@
 package gov.nasa.worldwind.render;
 
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.GL;
 import com.jogamp.opengl.util.texture.*;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.util.Logging;
 
-import javax.media.opengl.GL;
 import java.util.List;
 
 /**

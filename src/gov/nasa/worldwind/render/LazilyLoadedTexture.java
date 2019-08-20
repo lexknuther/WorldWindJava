@@ -6,6 +6,7 @@
 
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.*;
 import com.jogamp.opengl.util.texture.*;
 import com.jogamp.opengl.util.texture.awt.AWTTextureIO;
 import gov.nasa.worldwind.*;
@@ -13,7 +14,6 @@ import gov.nasa.worldwind.avlist.*;
 import gov.nasa.worldwind.cache.FileStore;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.awt.image.*;
 import java.beans.*;
 import java.net.URL;

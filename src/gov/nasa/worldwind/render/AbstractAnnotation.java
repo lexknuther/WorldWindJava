@@ -5,13 +5,13 @@
  */
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.WorldWindow;
 import gov.nasa.worldwind.avlist.*;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.pick.PickSupport;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.awt.*;
 
 /**

@@ -5,6 +5,7 @@
  */
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.drag.*;
 import gov.nasa.worldwind.geom.*;
@@ -14,14 +15,13 @@ import gov.nasa.worldwind.ogc.kml.gx.GXConstants;
 import gov.nasa.worldwind.pick.PickSupport;
 import gov.nasa.worldwind.util.Logging;
 
-import javax.media.opengl.*;
 import javax.xml.stream.*;
 import java.awt.*;
 import java.awt.image.*;
 import java.io.*;
 import java.net.URL;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 /**
  * Renders a single image contained in a local file, a remote file, or a <code>BufferedImage</code>.

@@ -6,13 +6,13 @@
 
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.GL;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.ogc.kml.KMLConstants;
 import gov.nasa.worldwind.ogc.kml.impl.KMLExportUtil;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.GL;
 import javax.xml.stream.*;
 import java.awt.*;
 import java.awt.image.*;

@@ -5,9 +5,9 @@
  */
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.GL2;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.awt.*;
 
 /**

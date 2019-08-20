@@ -5,6 +5,7 @@
  */
 package gov.nasa.worldwind.layers;
 
+import com.jogamp.opengl.*;
 import com.jogamp.opengl.util.texture.*;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
@@ -14,7 +15,6 @@ import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 

@@ -6,9 +6,9 @@
 
 package gov.nasa.worldwind;
 
-import gov.nasa.worldwind.cache.*;
+import com.jogamp.opengl.GLAutoDrawable;
+import gov.nasa.worldwind.cache.GpuResourceCache;
 
-import javax.media.opengl.GLAutoDrawable;
 
 /**
  * @author tag

@@ -7,6 +7,7 @@
 package gov.nasa.worldwindx.examples.lineofsight;
 
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.geom.Box;
 import gov.nasa.worldwind.geom.*;
@@ -15,11 +16,10 @@ import gov.nasa.worldwind.pick.PickSupport;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.awt.*;
 import java.nio.FloatBuffer;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 /**
  * @author tag

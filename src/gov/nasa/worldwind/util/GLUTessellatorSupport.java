@@ -5,10 +5,10 @@
  */
 package gov.nasa.worldwind.util;
 
-import gov.nasa.worldwind.geom.*;
+import com.jogamp.opengl.*;
+import com.jogamp.opengl.glu.*;
+import gov.nasa.worldwind.geom.Vec4;
 
-import javax.media.opengl.*;
-import javax.media.opengl.glu.*;
 import java.nio.IntBuffer;
 import java.util.*;
 

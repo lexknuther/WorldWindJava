@@ -5,11 +5,11 @@
  */
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.GL2;
 import com.jogamp.opengl.util.texture.TextureCoords;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.util.SurfaceTileDrawContext;
 
-import javax.media.opengl.*;
 import java.awt.geom.*;
 import java.util.*;
 

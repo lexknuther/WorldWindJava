@@ -5,13 +5,13 @@
  */
 package gov.nasa.worldwind.awt;
 
+import com.jogamp.opengl.awt.GLJPanel;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.event.*;
 import gov.nasa.worldwind.pick.*;
 import gov.nasa.worldwind.util.Logging;
 
-import javax.media.opengl.awt.GLJPanel;
 import javax.swing.event.*;
 import java.awt.*;
 import java.awt.event.*;

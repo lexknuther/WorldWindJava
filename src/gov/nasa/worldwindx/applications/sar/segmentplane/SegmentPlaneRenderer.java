@@ -6,6 +6,7 @@
 package gov.nasa.worldwindx.applications.sar.segmentplane;
 
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.View;
 import gov.nasa.worldwind.avlist.*;
 import gov.nasa.worldwind.geom.*;
@@ -17,7 +18,6 @@ import gov.nasa.worldwind.render.markers.*;
 import gov.nasa.worldwind.terrain.SectorGeometryList;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.awt.*;
 import java.nio.*;
 import java.util.*;

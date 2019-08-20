@@ -5,6 +5,7 @@
  */
 package gov.nasa.worldwind.render;
 
+import com.jogamp.opengl.*;
 import gov.nasa.worldwind.WWObjectImpl;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.cache.Cacheable;
@@ -15,10 +16,9 @@ import gov.nasa.worldwind.layers.Layer;
 import gov.nasa.worldwind.pick.*;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
 import java.awt.*;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 /**
  * Abstract implementation of SurfaceObject that participates in the {@link gov.nasa.worldwind.SceneController}'s bulk

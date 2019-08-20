@@ -5,9 +5,9 @@
  */
 package gov.nasa.worldwind.geom;
 
+import com.jogamp.opengl.GL;
 import gov.nasa.worldwind.util.Logging;
 
-import javax.media.opengl.GL;
 import java.nio.*;
 import java.util.*;
 

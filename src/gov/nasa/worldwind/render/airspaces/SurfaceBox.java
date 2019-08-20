@@ -6,12 +6,12 @@
 
 package gov.nasa.worldwind.render.airspaces;
 
+import com.jogamp.opengl.GL2;
 import gov.nasa.worldwind.geom.*;
 import gov.nasa.worldwind.globes.Globe;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.GL2;
 import java.util.*;
 
 public class SurfaceBox extends AbstractSurfaceShape

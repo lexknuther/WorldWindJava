@@ -6,6 +6,8 @@
 
 package gov.nasa.worldwind.util.tree;
 
+import com.jogamp.opengl.*;
+import com.jogamp.opengl.glu.GLU;
 import com.jogamp.opengl.util.texture.*;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
@@ -14,15 +16,13 @@ import gov.nasa.worldwind.pick.PickSupport;
 import gov.nasa.worldwind.render.*;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
-import javax.media.opengl.glu.GLU;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.*;
 import java.net.URL;
 import java.nio.DoubleBuffer;
-import java.util.*;
 import java.util.List;
+import java.util.*;
 
 /**
  * A frame that can scroll its contents. The frame can be interactively resized by dragging the border, and be moved by

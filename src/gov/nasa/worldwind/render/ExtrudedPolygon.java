@@ -7,6 +7,8 @@
 package gov.nasa.worldwind.render;
 
 import com.jogamp.common.nio.Buffers;
+import com.jogamp.opengl.*;
+import com.jogamp.opengl.glu.GLU;
 import gov.nasa.worldwind.*;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.cache.ShapeDataCache;
@@ -18,8 +20,6 @@ import gov.nasa.worldwind.ogc.kml.impl.KMLExportUtil;
 import gov.nasa.worldwind.terrain.Terrain;
 import gov.nasa.worldwind.util.*;
 
-import javax.media.opengl.*;
-import javax.media.opengl.glu.GLU;
 import javax.xml.stream.*;
 import java.io.*;
 import java.nio.*;
