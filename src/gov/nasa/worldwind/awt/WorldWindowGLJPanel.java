@@ -87,8 +87,8 @@ public class WorldWindowGLJPanel extends GLJPanel implements WorldWindow, Proper
      *
      * @param shareWith a <code>WorldWindow</code> with which to share graphics resources.
      *
-     * @see GLJPanel#GLJPanel(javax.media.opengl.GLCapabilitiesImmutable, javax.media.opengl.GLCapabilitiesChooser,
-     *      javax.media.opengl.GLContext)
+     * @see GLJPanel#GLJPanel(com.jogamp.opengl.GLCapabilitiesImmutable, com.jogamp.opengl.GLCapabilitiesChooser,
+     *      com.jogamp.opengl.GLContext)
      */
     public WorldWindowGLJPanel(WorldWindow shareWith)
     {
@@ -130,8 +130,8 @@ public class WorldWindowGLJPanel extends GLJPanel implements WorldWindow, Proper
      * @param chooser      a chooser object that customizes the specified capabilities. May be null, in which case a
      *                     default chooser is used.
      *
-     * @see GLJPanel#GLJPanel(javax.media.opengl.GLCapabilitiesImmutable, javax.media.opengl.GLCapabilitiesChooser,
-     *      javax.media.opengl.GLContext)
+     * @see GLJPanel#GLJPanel(com.jogamp.opengl.GLCapabilitiesImmutable, com.jogamp.opengl.GLCapabilitiesChooser,
+     *      com.jogamp.opengl.GLContext)
      */
     public WorldWindowGLJPanel(WorldWindow shareWith, GLCapabilities capabilities,
         GLCapabilitiesChooser chooser)

@@ -180,7 +180,7 @@ public class BasicAirspaceAttributes extends BasicShapeAttributes implements Air
     /**
      * {@inheritDoc}
      *
-     * @deprecated Use {@link Material#apply(javax.media.opengl.GL2, int)} or make OpenGL state changes directly.
+     * @deprecated Use {@link Material#apply(com.jogamp.opengl.GL2, int)} or make OpenGL state changes directly.
      */
     public void applyInterior(DrawContext dc, boolean enableMaterial)
     {
@@ -197,7 +197,7 @@ public class BasicAirspaceAttributes extends BasicShapeAttributes implements Air
     /**
      * {@inheritDoc}
      *
-     * @deprecated Use {@link Material#apply(javax.media.opengl.GL2, int)} or make OpenGL state changes directly.
+     * @deprecated Use {@link Material#apply(com.jogamp.opengl.GL2, int)} or make OpenGL state changes directly.
      */
     public void applyOutline(DrawContext dc, boolean enableMaterial)
     {

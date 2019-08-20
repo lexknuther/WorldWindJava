@@ -11,7 +11,7 @@ import com.jogamp.opengl.*;
 import java.util.List;
 
 /**
- * BasicGLCapabilitiesChooser provides an implementation of {@link javax.media.opengl.GLCapabilitiesChooser} for use
+ * BasicGLCapabilitiesChooser provides an implementation of {@link com.jogamp.opengl.GLCapabilitiesChooser} for use
  * with WorldWindow implementations (for example, WorldWindowGLCanvas and WorldWindowGLJPanel).
  * <p/>
  * BasicGLCapabilitiesChooser extends the behavior of the default GLCapabilitiesChooser by implementing a fallback

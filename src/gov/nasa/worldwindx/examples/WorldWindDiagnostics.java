@@ -117,7 +117,7 @@ public class WorldWindDiagnostics
             }
 
             sb.append("\nJOGL Values\n");
-            String pkgName = "javax.media.opengl";
+            String pkgName = "com.jogamp.opengl";
             try
             {
                 getClass().getClassLoader().loadClass(pkgName + ".GL");

@@ -33,7 +33,7 @@ public abstract class SurfaceTileRenderer implements Disposable
      * Free internal resources held by this surface tile renderer. A GL context must be current when this method is
      * called.
      *
-     * @throws javax.media.opengl.GLException - If an OpenGL context is not current when this method is called.
+     * @throws com.jogamp.opengl.GLException - If an OpenGL context is not current when this method is called.
      */
     public void dispose()
     {

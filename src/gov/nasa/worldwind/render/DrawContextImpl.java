@@ -147,7 +147,7 @@ public class DrawContextImpl extends WWObjectImpl implements DrawContext
     /**
      * Free internal resources held by this draw context. A GL context must be current when this method is called.
      *
-     * @throws javax.media.opengl.GLException - If an OpenGL context is not current when this method is called.
+     * @throws com.jogamp.opengl.GLException - If an OpenGL context is not current when this method is called.
      */
     public void dispose()
     {
