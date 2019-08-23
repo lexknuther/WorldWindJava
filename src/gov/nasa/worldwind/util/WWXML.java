@@ -273,10 +273,10 @@ public class WWXML
             throw new IllegalArgumentException(message);
         }
 
+        java.io.FileOutputStream outputStream = null;
         try
         {
-            java.io.FileOutputStream outputStream = new java.io.FileOutputStream(filePath);
-
+            outputStream = new java.io.FileOutputStream(filePath);
             saveDocumentToStream(doc, outputStream);
         }
         catch (IOException e)
@@ -284,6 +284,22 @@ public class WWXML
             String message = Logging.getMessage("generic.ExceptionAttemptingToWriteXml", filePath);
             Logging.logger().severe(message);
             throw new WWRuntimeException(e);
+        }
+        finally
+        {
+            if (outputStream != null)
+            {
+                try
+                {
+                    outputStream.close();
+                }
+                catch (IOException e)
+                {
+                    String message = Logging.getMessage("generic.ExceptionAttemptingToWriteXml", filePath);
+                    Logging.logger().severe(message);
+                    throw new WWRuntimeException(e);
+                }
+            }
         }
     }
 
